@@ -50,14 +50,16 @@
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                User Register form (with Validation - Email exists and Mobile numeric only)  <br>
+                                Task: Create a simple sign-in and after logging in, the user can create an Email template through the Text Area (HTML Field) with a "Save Template" button. Retain all the new lines and special characters in the template. And create a page showing all the email templates.
+                            <br>
 
-                                Login form with a registered user <br>
+                            Then create an API endpoint to send an email to any user by using the templates created. The API endpoint will take the following parameters: <br>
 
-                                Listing of all users and pagination(Laravel datatable only) with search  <br>
+                           1. Template ID - Which template to send <br>
+                            2. Email - which email to send the template to.<br>
+                           3. Other optional data (as required by you)  <br>
 
-                                Admin table with different login flow no need to register form here. 
-                                (Multiple table login)  
+                               
                                 </div>
                             </div>
                         </div>
